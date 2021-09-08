@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nar_graph"
+    app:startDestination="@id/showMessagesFragment">
+
+    <fragment
+        android:id="@+id/showMessagesFragment"
+        android:name="com.example.screeningassignmentcrib.ShowMessagesFragment"
+        android:label="fragment_show_messages"
+        tools:layout="@layout/fragment_show_messages" />
+
+
+</navigation>
